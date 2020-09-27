@@ -1,0 +1,309 @@
+$fa-font-path: './node_modules/@fortawesome/fontawesome-free/webfonts';
+@import './node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import './node_modules/@fortawesome/fontawesome-free/scss/solid.scss';
+@import './node_modules/@fortawesome/fontawesome-free/scss/brands.scss';
+@import './node_modules/@fortawesome/fontawesome-free/scss/regular.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+$padding-top: 3rem;
+$padding-bottom: 3rem;
+$padding-left: 6rem;
+$padding-right: 6rem;
+
+$color-gray-1: rgb(245, 245, 245);
+$color-gray-2: rgb(69, 57, 81);
+$color-gray-3: rgb(119, 110, 127);
+$color-gray-4: rgb(42, 39, 46);
+$color-gray-5: #666666;
+
+$color-nuetral-0: #fff;
+$color-nuetral-9: black;
+$color-red-1: rgb(234, 98, 61);
+body {
+    font-size: 1rem;
+    font-family: 'Open Sans';
+}
+.bold {
+    font-weight: bold;
+}
+.label {
+    font-size: 18px;
+    font-weight: bold;
+    color: $color-nuetral-9;
+}
+.text {
+    font-size: 14px;
+    color: $color-gray-5;
+}
+.upper {
+    text-transform: uppercase;
+}
+.menu-item {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    &:hover {
+        border-bottom: 2px solid $color-red-1;
+        cursor: pointer;
+    }
+    i {
+        margin-left: 0.25rem;
+    }
+    margin-right: 1rem;
+}
+.about {
+    height: 106px;
+    background-color: rgb(69, 57, 81);
+}
+.image {
+    background-color: gray;
+    border: 1px solid gray;
+    height: 20.5rem;
+}
+.small {
+    height: 6rem;
+}
+.welcome-image {
+    padding: $padding-top 1rem $padding-bottom calc(#{$padding-left} + 15px);
+}
+.welcome-text {
+    padding: $padding-top $padding-right $padding-bottom 1rem;
+}
+.section-row {
+    margin: 0 0 2rem 0;
+}
+.about {
+    padding: 2rem 2rem 2rem 6rem;
+    color: $color-nuetral-0;
+}
+.contacts {
+    padding: 2rem 2rem 2rem 6rem;
+}
+.services {
+    background-color: $color-gray-1;
+}
+.section-container {
+    padding: $padding-top $padding-right $padding-bottom $padding-left;
+}
+.section-description {
+    font-size: 18px;
+    color: $color-gray-5;
+}
+.header {
+    padding: 2rem 2rem 2rem 6rem;
+}
+.section-hint {
+    text-transform: uppercase;
+    color: $color-gray-3;
+    font-weight: bold;
+    font-size: 14px;
+}
+.progress-item {
+    margin-bottom: 2rem;
+}
+.progress-header {
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+}
+.progress-label {
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+}
+.progress-level {
+    color: $color-gray-3;
+    text-transform: capitalize;
+}
+.carousel-item {
+    padding: $padding-top $padding-right $padding-bottom $padding-left;
+    background-color: $color-gray-2;
+    height: 20rem;
+}
+.slide {
+    flex: 1;
+}
+.name {
+    line-height: 2rem;
+}
+.position {
+    line-height: 2rem;
+    border-bottom: 1px solid $color-gray-1;
+    text-transform: uppercase;
+}
+.service-icon-container {
+    height: 32px; // ??
+    width: 32px;
+
+    flex: 1;
+    margin-left: -1rem;
+    margin-top: 0.25rem;
+
+    background-color: $color-red-1;
+    color: $color-nuetral-0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-header {
+    background-color: $color-nuetral-0;
+}
+.card {
+    border: none;
+}
+.nav-item {
+    color: $color-gray-3;
+    &:hover {
+        color: $color-nuetral-0;
+        cursor: pointer;
+    }
+}
+.social {
+    line-height: 2rem;
+    // padding: 1rem 0 1rem 0;
+}
+.customers {
+    background-color: $color-gray-1;
+}
+.section-label {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+.description {
+    margin-top: 1rem;
+}
+.customers-row {
+    margin-bottom: 2rem;
+    height: 6rem;
+}
+.contacts {
+    background-color: $color-gray-2;
+    color: $color-gray-3;
+    font-size: 0.75rem;
+}
+.social-circle {
+    width: 3rem;
+    height: 3rem;
+    background-color: $color-gray-3;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-nuetral-0;
+}
+.btn {
+    font-size: 0.75rem;
+}
+.email-input {
+    height: 2rem;
+    background-color: $color-gray-3;
+    border: none;
+    font-size: 0.75rem;
+    &::placeholder {
+        color: $color-gray-1;
+        opacity: 1;
+    }
+    &:focus,
+    &:active {
+        border: none;
+        background-color: $color-gray-3;
+        box-shadow: none;
+    }
+}
+.footer {
+    background-color: $color-gray-4;
+    color: $color-gray-3;
+}
+.footer-label {
+    margin-bottom: 1rem;
+    font-size: 14px;
+    letter-spacing: 0.05rem;
+}
+
+.footer-address {
+    color: $color-gray-1;
+}
+.footer-addres-phone {
+    margin-top: 1rem;
+    color: $color-nuetral-0;
+}
+.footer-tweet-date {
+    color: $color-gray-2;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+.footer-tweet {
+    color: $color-gray-1;
+    a {
+        color: $color-red-1;
+    }
+}
+.summary-row {
+    margin: 0 0 1rem 0;
+}
+h5 {
+    color: $color-nuetral-9;
+    font-weight: bold;
+}
+.button {
+    cursor: pointer;
+}
+.collapse-header {
+    .fa-minus {
+        color: $color-red-1;
+        margin-right: 0.5rem;
+    }
+    .fa-plus {
+        color: $color-red-1;
+        margin-right: 0.5rem;
+    }
+}
+.bg-skill {
+    background-color: $color-nuetral-9;
+}
+.collapse-header[aria-expanded='true'] {
+    .fa-plus {
+        display: none;
+    }
+}
+.collapse-header[aria-expanded='false'] {
+    .fa-minus {
+        display: none;
+    }
+}
+.carousel-indicators .active {
+    background-color: $color-nuetral-0;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: 1px solid $color-nuetral-0;
+    border-radius: 100%;
+}
+.card-title {
+    color: $color-nuetral-0 !important;
+}
+.donate {
+    border: 2px solid $color-gray-3;
+    padding: 0.5rem;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.nav {
+    margin-right: 0.5rem;
+}
+.menu-logo {
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    color: $color-gray-3;
+    img {
+        margin-right: 0.5rem;
+    }
+}
