@@ -15,44 +15,44 @@
             integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
             crossorigin="anonymous"
         />
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
         <title>Pluto</title>
 
         <link rel="stylesheet" href="index.css" type="text/css" />
     </head>
     <body>
-        <div class="container-fluid">
-            <div class="row header">
-                <div class="menu-logo col-8 text-left"><img src='Р.jpg' alt='p logo'/>Pluto</div>
-
-                <div class="menu-items col-4 row  ">
-                    <div class="menu-item text-right ml-auto">Home</div>
-                    <div class="menu-item text-right ml-auto">About</div>
-                    <div class="menu-item text-right ml-auto">
-                        <span>portfolio<i class="fas fa-caret-down"></i></span>
-                    </div>
-                    <div class="menu-item text-right ml-auto">Blog</div>
-                    <div class="menu-item text-right ml-auto">Contact</div>
-                    <div class="menu-item text-right ml-auto">
-                        <i class="fas fa-search"></i>
-                    </div>
-                </div>
-            </div>
+        <header class="row header container-fluid">
+            <div class="menu-logo col-xl-8 col-lg-6 col-md-4 col-sm-3 text-left"><img src='Р.jpg' alt='p logo'/>Pluto</div>
+            <nav class="menu-items col-xl-4 col-lg-6 col-md-8 col-sm-9 row  ">
+                <a class="menu-item text-right ml-auto">Home</a>
+                <a class="menu-item text-right ml-auto">About</a>
+                <a class="menu-item text-right ml-auto">
+                    <span>portfolio<i class="fas fa-caret-down"></i></span>
+                </a>
+                <a class="menu-item text-right ml-auto">Blog</a>
+                <a class="menu-item text-right ml-auto">Contact</a>
+                <a class="menu-item text-right ml-auto">
+                    <i class="fas fa-search"></i>
+                </a>
+            </nav>
+        </header>
+        <main class="container-fluid">
+            
             <div class="row about">
-                <div class="col-10 navbar-text section-label">About us</div>
-                <div class="col-2 row">
-                    <div class="ml-auto nav">
-                          <span class=" nav-item ">Home /</span> 
-                        <span class=" nav-item ">About us</span>
+                <div class="col-10 col-md-8 col-sm-4 navbar-text section-label">About us</div>
+                <div class="col-2 col-md-4 col-sm-8 row">
+                    <div class="ml-auto nav row">
+                        <span class="nav-item align-self-center">Home /</span> 
+                        <span class="nav-item align-self-center">About us</span>
                     </div>
                    
                 </div>
             </div>
-            <div class="row">
-                <div class="col-6 container welcome-image">
+            <section class="row section-container">
+                <div class="col-xl-6 col-lg-12 container-fluid ">
                     <div class="image"></div>
                 </div>
-                <div class="container col-6 welcome-text">
+                <div class="container col-xl-6 col-lg-12  container-fluid">
                     <div class="row summary-row label">Welcome to our company</div>
                     <div class="row summary-row text">
                         Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, 
@@ -70,8 +70,8 @@
                     </div>
                   
               
-            </div>
-            <div class="row section-container services">
+            </section>
+            <section class="row section-container services">
                 <div class="col container">
                     <div class="row justify-content-center section-row">
                         <div class="col-4 section-hint text-center">
@@ -79,93 +79,92 @@
                         </div>
                     </div>
                     <div class="row justify-content-center section-row">
-                        <div class="col-4 text-center section-label">
+                        <div class="col-4 col-md-6 col-sm-8 text-center section-label">
                             What can we do for you?
                         </div>
                     </div>
                     <div class="row justify-content-center section-row">
-                        <div class="col-8 text-center section-description ">
+                        <div class="col-8 col-md-10 col-sm-12 text-center section-description ">
                             Mauris eget ligula vel nulla dignissim pharetra non
                             sedorci. Prasent consequat egestas dapidus. Quisque
                             faucibus erat at metus adipiscing lacinia
                         </div>
                     </div>
                     <div class="row justify-content-center section-row">
-                        <div class="col-4 container row">
-                            <div class="col-1">
-                                <div class=" service-icon-container">
+                        <div class="col-xl-4 col-lg-6 container row">
+                            <div class="col-1 ">
+                                <div class="align-self-end service-icon-container">
                                     <i class="fas fa-star"></i>
                                 </div>                                
                             </div>
-                            <div class="col-11">
+                            <div class="col-10 justify-content-left ">
                                 <div class="label">Brand Creation</div>
                                 <div class="summary-row text">
                                     Praesent dignissim dui eu urna feugiat lobortis. Morbi varius nibh sit amet adipiscing mollis. Aenean id neque ut augue gravida posuere.
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 container row">
+                        <div class="col-xl-4 col-lg-6 container row">
                             <div class="col-1 ">
                                 <div class=" service-icon-container">
                                 <i class="fas fa-asterisk"></i>
                             </div>
                             </div>
-                            <div class="col-11">
+                            <div class="col-10">
                                 <div class="label">Interface design</div>
                                 <div class="summary-row text">
                                     Donec sed dui consectetur, condimentum tellus nec, lacinia felis. Aenean vehicula erat a justo lobortis, non euismod orci vulputate.
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 container row">
-                            <div class="col-1 ">
+                        <div class="col-xl-4 col-lg-6 container row">
+                            <div class="col-1  ">
                                 <div class=" service-icon-container"> 
                                     <i class="fas fa-trophy"></i>
                                 </div>
                                
                             </div>
-                            <div class="col-11">
+                            <div class="col-10">
                                 <div class="label">Graphic design</div>
                                 <div class="summary-row text">
                                     Nam pharetra justo turpis, quis rutrum lorem lobortis euismod. Praesent augue, consectetur ultricies eros non, lacinia scelerisque ante.
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row justify-content-center section-row">
-                        <div class="col-4 container row">
+                    <!-- </div> -->
+                    <!-- <div class="row justify-content-center section-row"> -->
+                        <div class="col-xl-4 col-lg-6 container row">
                             <div class="col-1 ">
                                 <div class=" service-icon-container"> <i class="fas fa-cog"></i></div>
                                
                             </div>
-                            <div class="col-11">
+                            <div class="col-10">
                                 <div class="label">Web development</div>
                                 <div class="summary-row text">
                                     Aenean vitae neque mi. Phasellus tempor risus non risus tristique, quis egestas velit vulputate. Sed porttitor non nunc non pharetra.
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 container row">
-                            <div class="col-1 ">
+                        <div class="col-xl-4  col-lg-6 container row">
+                            <div class="col-1">
                                 <div class=" service-icon-container">
                                     <i class="fas fa-thumbs-up"></i>
                                 </div>                               
                             </div>
-                            <div class="col-11">
+                            <div class="col-10">
                                 <div class="label">Online marketing</div>
                                 <div class="summary-row text">
                                     Duis quis elit hendrerit, tempor magna ac, adipiscing ligula. Maecenas neque nibh, vehicula ut neque at, scelerisque mollis enim.
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 container row">
+                        <div class="col-xl-4 col-lg-6 container row">
                             <div class="col-1 ">
                                 <div class=" service-icon-container">
                                     <i class="fas fa-file-alt"></i>
                                 </div>
-                                
                             </div>
-                            <div class="col-11">
+                            <div class="col-10">
                                 <div class="label">Infromation visualization</div>
                                 <div class="summary-row text">
                                     Integer quis tristique arcu. Ut convallis purus purus, ut facilisis lorem pulvinar sit. Curabitur ullamcorper purus non auctor consectetur.
@@ -174,8 +173,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row section-container">
+            </section>
+            <section class="row section-container">
                 <div class="col container">
                     <div class="row justify-content-center section-row">
                         <div class="col-4 section-hint text-center">
@@ -183,13 +182,12 @@
                         </div>
                     </div>
                     <div class="row justify-content-center section-row">
-                        <div class="col-4 text-center section-label">
+                        <div class="col-4 col-md-6 col-sm-8 text-center section-label">
                             Things we are good at
                         </div>
                     </div>
                     <div class="row">
-                        <!-- TODO: style -->
-                        <div class="col-6">
+                        <div class="col-xl-6 col-xs-12 col-sm-12">
                             <div id="accordion">
                                 <div class="card">
                                     <div class="card-header" id="headingOne">
@@ -320,12 +318,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-xl-6 col-xs-12 col-sm-12">
                             <div class="progress-item">
                                 <div
                                     class="row progress-header justify-content-between"
                                 >
-                                    <div class="col-4 progress-label">
+                                    <div class="col-6 progress-label">
                                         Photoshop
                                     </div>
                                     <div
@@ -349,7 +347,7 @@
                                 <div
                                     class="row progress-header justify-content-between"
                                 >
-                                    <div class="col-4 progress-label">
+                                    <div class="col-6 progress-label">
                                         Illustrator
                                     </div>
                                     <div
@@ -373,7 +371,7 @@
                                 <div
                                     class="row progress-header justify-content-between"
                                 >
-                                    <div class="col-4 progress-label">
+                                    <div class="col-6 progress-label">
                                         indesign
                                     </div>
                                     <div
@@ -397,11 +395,11 @@
                                 <div
                                     class="row progress-header justify-content-between"
                                 >
-                                    <div class="col-4 progress-label">
+                                    <div class="col-6 progress-label">
                                         after effects
                                     </div>
                                     <div
-                                        class="col-2 progress-level text-right"
+                                        class="col-6 progress-level text-right"
                                     >
                                         average
                                     </div>
@@ -420,8 +418,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
+            </section>
+            <section class="row">
                 <div
                     id="carouselExampleIndicators"
                     class="carousel slide"
@@ -499,8 +497,8 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-            </div>
-            <div class="row section-container">
+            </section>
+            <section class="row section-container">
                 <div class="col container">
                     <div class="row justify-content-center section-row">
                         <div class="col-4 section-hint text-center">
@@ -508,15 +506,15 @@
                         </div>
                     </div>
                     <div class="row justify-content-center section-row">
-                        <div class="col-4 text-center section-label">
+                        <div class="col-4 col-md-6 col-sm-8 text-center section-label">
                             The right people
                         </div>
                     </div>
                     <div class="row justify-content-center section-row">
-                        <div class="col-3">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
                             <div class="image"></div>
                             <div class="name">Robert Judd</div>
-                            <div class="position">cep</div>
+                            <div class="position">ceo</div>
                             <div class="social row">
                                 <div class="icon col-1">
                                     <i class="fab fa-facebook-square"></i>
@@ -530,7 +528,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
                             <div class="image"></div>
                             <div class="name">Eva Barnes</div>
                             <div class="position">designer</div>
@@ -547,7 +545,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
                             <div class="image"></div>
                             <div class="name">Eugene Fletcher</div>
                             <div class="position">developer</div>
@@ -564,7 +562,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
                             <div class="image"></div>
                             <div class="name">Janet McKenzie</div>
                             <div class="position">support</div>
@@ -583,16 +581,16 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row section-container customers">
+            </section>
+            <section class="row section-container customers">
                 <div class="col container">
                     <div class="row section-row">
                         <div class="col-3 section-hint">our clients</div>
                     </div>
                     <div class="row section-row">
-                        <div class="col-3">
+                        <div class="col-xl-3 col-lg-12">
                             <div class="row">
-                                <div class="col section-label">
+                                <div class="col col-md-6 col-sm-8 section-label">
                                     Meet our happy customers
                                 </div>
                             </div>
@@ -603,47 +601,45 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-9">
+                        <div class="col-xl-9 col-lg-12">
                             <div class="row col customers-row">
-                                <div class="col-3">
+                                <div class="col-lg-3 col-sm-6 col-xs-6">
                                     <div class="image small"></div>
                                 </div>
-                                <div class="col-3">
+                                <div class="col-lg-3 col-sm-6 col-xs-6">
                                     <div class="image small"></div>
                                 </div>
-                                <div class="col-3">
+                                <div class="col-lg-3 col-sm-6 col-xs-6">
                                     <div class="image small"></div>
                                 </div>
-                                <div class="col-3">
+                                <div class="col-lg-3 col-sm-6 col-xs-6">
                                     <div class="image small"></div>
                                 </div>
-                            </div>
-                            <div class="row col customers-row">
-                                <div class="col-3">
+                                <div class="col-lg-3 col-sm-6 col-xs-6">
                                     <div class="image small"></div>
                                 </div>
-                                <div class="col-3">
+                                <div class="col-lg-3 col-sm-6 col-xs-6">
                                     <div class="image small"></div>
                                 </div>
-                                <div class="col-3">
+                                <div class="col-lg-3 col-sm-6 col-xs-6">
                                     <div class="image small"></div>
                                 </div>
-                                <div class="col-3">
+                                <div class="col-lg-3 col-sm-6 col-xs-6">
                                     <div class="image small"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row section-container justify-content-center">
+            </section>
+            <section class="row section-container justify-content-center">
                 <div class="col-4 text-center row">
                     <h5 class="align-self-center">  Like what you see? Buy this template!</h5>
                 </div>
-                <div class="col-2 text-center"> <div class="donate">Take my money</div></div>
-            </div>
-            <div class="row justify-content-center contacts">
-                <div class="col-6 row">
+                <div class="col-2 text-center"> <button class="donate">Take my money</button></div>
+            </section>
+            <section class="row justify-content-center contacts">
+                <nav class="col-md-6 col-sm-12 row ">
                     <span class="col-2 upper align-self-center">follow us</span>
                     <div class="social-circle align-self-center">
                         <i class="fab fa-facebook-f"></i>
@@ -657,8 +653,8 @@
                     <div class="social-circle align-self-center">
                         <i class="fab fa-pinterest-p"></i>
                     </div>
-                </div>
-                <div class="col-6 row">
+                </nav>
+                <div class="col-md-6 col-sm-12  row justify-content-right ">
                     <span class="col-4 upper align-self-center text-right">
                         get the newsletter
                     </span>
@@ -675,45 +671,44 @@
                         <div class="btn btn-danger upper">subscribe</div>
                     </div>
                 </div>
+            </section>
+        </main>
+        <footer class="container-fluid row section-container footer">
+            <div class="col-lg-3 col-sm-6">
+                <div class="row">PLUTO</div>
+                <div class="row">Made with love by Anton</div>
+                <div class="row">©2020</div>
             </div>
-            <div class="row section-container footer">
-                <div class="col-3">
-                    <div class="row">PLUTO</div>
-                    <div class="row">Made with love by Anton</div>
-                    <div class="row">©2020</div>
-                </div>
-                <div class="col-3">
-                    <div class="footer-label upper">contact us</div>
-                    <div class="footer-email">hello@example.com</div>
-                    <div class="footer-address">121 King Street, Melbourne Victoria 3000, Australia</div>
-                    <div class="footer-addres-phone">+6138376284</div>
-                </div>
-                <div class="col-3">
-                    <div class="footer-label upper">recent tweet</div>
-                    <div class="footer-tweet-date">december 3</div>
-                    <div class="footer-tweet">Testing 1,2,3 We've just launched version 1 of our new Envato Marketplace Hub! Let us know what you think :)<a href='blank'> http://envatomarketplace.com</a></div>
-                </div>
-                <div class="col-3">
-                    <div class="footer-label upper">photostream</div>
-                    <div class="row">
-                        <div class="col-4 ">
-                            <div class="image small"> </div>       
-                        </div>
-                    
-                        <div class="col-4">
-                            <div class="image small"> </div>       
-                        </div>
-                    
-                        <div class="col-4">
-                            <div class="image small"> </div>       
-                        </div>
-                    
-                        
+            <div class="col-lg-3 col-sm-6">
+                <div class="footer-label upper">contact us</div>
+                <div class="footer-email">hello@example.com</div>
+                <div class="footer-address">121 King Street, Melbourne Victoria 3000, Australia</div>
+                <div class="footer-addres-phone">+6138376284</div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="footer-label upper">recent tweet</div>
+                <div class="footer-tweet-date">december 3</div>
+                <div class="footer-tweet">Testing 1,2,3 We've just launched version 1 of our new Envato Marketplace Hub! Let us know what you think :)<a href='blank'> http://envatomarketplace.com</a></div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="footer-label upper">photostream</div>
+                <div class="row">
+                    <div class="col-4 ">
+                        <div class="image small"> </div>       
                     </div>
+                
+                    <div class="col-4">
+                        <div class="image small"> </div>       
+                    </div>
+                
+                    <div class="col-4">
+                        <div class="image small"> </div>       
+                    </div>
+                
+                    
                 </div>
             </div>
-        </div>
-
+        </footer>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script

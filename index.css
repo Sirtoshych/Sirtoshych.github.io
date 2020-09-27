@@ -4585,6 +4585,13 @@ readers do not read off random characters that represent icons */
   margin: 0;
   padding: 0; }
 
+a {
+  text-decoration: none;
+  color: black; }
+  a:hover {
+    text-decoration: none;
+    color: black; }
+
 body {
   font-size: 1rem;
   font-family: 'Open Sans'; }
@@ -4605,6 +4612,9 @@ body {
   text-transform: uppercase; }
 
 .menu-item {
+  justify-content: center;
+  align-items: center;
+  display: flex;
   text-transform: uppercase;
   font-size: 0.75rem;
   margin-right: 1rem; }
@@ -4614,46 +4624,37 @@ body {
   .menu-item i {
     margin-left: 0.25rem; }
 
-.about {
-  height: 106px;
-  background-color: #453951; }
-
 .image {
   background-color: gray;
   border: 1px solid gray;
-  height: 20.5rem; }
+  height: 20.5rem;
+  margin-bottom: 1rem; }
 
 .small {
   height: 6rem; }
-
-.welcome-image {
-  padding: 3rem 1rem 3rem calc(6rem + 15px); }
-
-.welcome-text {
-  padding: 3rem 6rem 3rem 1rem; }
 
 .section-row {
   margin: 0 0 2rem 0; }
 
 .about {
-  padding: 2rem 2rem 2rem 6rem;
-  color: #fff; }
-
-.contacts {
-  padding: 2rem 2rem 2rem 6rem; }
+  padding: 2rem 7vw 2rem 7vw;
+  color: #fff;
+  height: 106px;
+  background-color: #453951; }
 
 .services {
   background-color: whitesmoke; }
 
 .section-container {
-  padding: 3rem 6rem 3rem 6rem; }
+  padding: 3rem 7vw 3rem 7vw; }
 
 .section-description {
   font-size: 18px;
   color: #666666; }
 
 .header {
-  padding: 2rem 2rem 2rem 6rem; }
+  padding: 2rem 7vw 2rem 7vw;
+  margin: 0; }
 
 .section-hint {
   text-transform: uppercase;
@@ -4677,7 +4678,7 @@ body {
   text-transform: capitalize; }
 
 .carousel-item {
-  padding: 3rem 6rem 3rem 6rem;
+  padding: 3rem 7vw 3rem 7vw;
   background-color: #453951;
   height: 20rem; }
 
@@ -4696,7 +4697,6 @@ body {
   height: 32px;
   width: 32px;
   flex: 1;
-  margin-left: -1rem;
   margin-top: 0.25rem;
   background-color: #ea623d;
   color: #fff;
@@ -4712,7 +4712,7 @@ body {
   border: none; }
 
 .nav-item {
-  color: #776e7f; }
+  color: #ea623d; }
   .nav-item:hover {
     color: #fff;
     cursor: pointer; }
@@ -4730,11 +4730,8 @@ body {
 .description {
   margin-top: 1rem; }
 
-.customers-row {
-  margin-bottom: 2rem;
-  height: 6rem; }
-
 .contacts {
+  padding: 2rem 7vw 2rem 7vw;
   background-color: #453951;
   color: #776e7f;
   font-size: 0.75rem; }
@@ -4768,6 +4765,7 @@ body {
     box-shadow: none; }
 
 .footer {
+  margin: 0;
   background-color: #2a272e;
   color: #776e7f; }
 
@@ -4835,6 +4833,7 @@ h5 {
 
 .donate {
   border: 2px solid #776e7f;
+  background-color: #fff;
   padding: 0.5rem;
   border-radius: 2px;
   cursor: pointer; }

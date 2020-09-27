@@ -11,8 +11,8 @@ $fa-font-path: './node_modules/@fortawesome/fontawesome-free/webfonts';
 
 $padding-top: 3rem;
 $padding-bottom: 3rem;
-$padding-left: 6rem;
-$padding-right: 6rem;
+$padding-left: 7vw;
+$padding-right: 7vw;
 
 $color-gray-1: rgb(245, 245, 245);
 $color-gray-2: rgb(69, 57, 81);
@@ -23,6 +23,15 @@ $color-gray-5: #666666;
 $color-nuetral-0: #fff;
 $color-nuetral-9: black;
 $color-red-1: rgb(234, 98, 61);
+
+a {
+    text-decoration: none;
+    color: $color-nuetral-9;
+    &:hover {
+        text-decoration: none;
+        color: $color-nuetral-9;
+    }
+}
 body {
     font-size: 1rem;
     font-family: 'Open Sans';
@@ -43,6 +52,10 @@ body {
     text-transform: uppercase;
 }
 .menu-item {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
     text-transform: uppercase;
     font-size: 0.75rem;
     &:hover {
@@ -54,34 +67,32 @@ body {
     }
     margin-right: 1rem;
 }
-.about {
-    height: 106px;
-    background-color: rgb(69, 57, 81);
-}
+
 .image {
     background-color: gray;
     border: 1px solid gray;
     height: 20.5rem;
+    margin-bottom: 1rem;
 }
 .small {
     height: 6rem;
 }
 .welcome-image {
-    padding: $padding-top 1rem $padding-bottom calc(#{$padding-left} + 15px);
+    // padding: $padding-top 1rem $padding-bottom calc(#{$padding-left} + 15px);
 }
 .welcome-text {
-    padding: $padding-top $padding-right $padding-bottom 1rem;
+    // padding: $padding-top $padding-right $padding-bottom 1rem;
 }
 .section-row {
     margin: 0 0 2rem 0;
 }
 .about {
-    padding: 2rem 2rem 2rem 6rem;
+    padding: 2rem $padding-right 2rem $padding-left;
     color: $color-nuetral-0;
+    height: 106px;
+    background-color: rgb(69, 57, 81);
 }
-.contacts {
-    padding: 2rem 2rem 2rem 6rem;
-}
+
 .services {
     background-color: $color-gray-1;
 }
@@ -93,7 +104,8 @@ body {
     color: $color-gray-5;
 }
 .header {
-    padding: 2rem 2rem 2rem 6rem;
+    padding: 2rem $padding-right 2rem $padding-left;
+    margin: 0;
 }
 .section-hint {
     text-transform: uppercase;
@@ -137,7 +149,7 @@ body {
     width: 32px;
 
     flex: 1;
-    margin-left: -1rem;
+    // margin-left: -1rem;
     margin-top: 0.25rem;
 
     background-color: $color-red-1;
@@ -154,7 +166,7 @@ body {
     border: none;
 }
 .nav-item {
-    color: $color-gray-3;
+    color: $color-red-1;
     &:hover {
         color: $color-nuetral-0;
         cursor: pointer;
@@ -174,11 +186,9 @@ body {
 .description {
     margin-top: 1rem;
 }
-.customers-row {
-    margin-bottom: 2rem;
-    height: 6rem;
-}
+
 .contacts {
+    padding: 2rem $padding-right 2rem $padding-left;
     background-color: $color-gray-2;
     color: $color-gray-3;
     font-size: 0.75rem;
@@ -215,6 +225,7 @@ body {
     }
 }
 .footer {
+    margin: 0;
     background-color: $color-gray-4;
     color: $color-gray-3;
 }
@@ -291,6 +302,7 @@ h5 {
 }
 .donate {
     border: 2px solid $color-gray-3;
+    background-color: $color-nuetral-0;
     padding: 0.5rem;
     border-radius: 2px;
     cursor: pointer;
