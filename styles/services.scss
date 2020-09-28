@@ -1,0 +1,18 @@
+@import './common';
+.services {
+    background-color: $color-gray-1;
+}
+.service-icon-container {
+    height: 32px;
+    width: 32px;
+
+    flex: 1;
+    margin-top: 0.25rem;
+
+    background-color: $color-red-1;
+    color: $color-nuetral-0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

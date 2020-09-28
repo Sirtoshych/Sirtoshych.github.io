@@ -1,0 +1,16 @@
+@import './common';
+.progress-item {
+    margin-bottom: 2rem;
+}
+.progress-header {
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+}
+.progress-label {
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+}
+.progress-level {
+    color: $color-gray-3;
+    text-transform: capitalize;
+}

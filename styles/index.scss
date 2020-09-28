@@ -1,0 +1,111 @@
+$fa-font-path: './fontawesome-free/webfonts';
+@import './fontawesome-free/scss/fontawesome.scss';
+@import './fontawesome-free/scss/solid.scss';
+@import './fontawesome-free/scss/brands.scss';
+@import './fontawesome-free/scss/regular.scss';
+@import './common';
+
+a {
+    text-decoration: none;
+    color: $color-nuetral-9;
+    &:hover {
+        text-decoration: none;
+        color: $color-nuetral-9;
+    }
+}
+h5 {
+    color: $color-nuetral-9;
+    font-weight: bold;
+}
+body {
+    font-size: 1rem;
+    font-family: 'Open Sans';
+}
+
+.bold {
+    font-weight: bold;
+}
+.label {
+    font-size: 18px;
+    font-weight: bold;
+    color: $color-nuetral-9;
+}
+.text {
+    font-size: 14px;
+    color: $color-gray-5;
+}
+.upper {
+    text-transform: uppercase;
+}
+
+.image {
+    background-color: gray;
+    border: 1px solid gray;
+    height: 20.5rem;
+    margin-bottom: 1rem;
+}
+.small {
+    height: 6rem;
+}
+
+.section-row {
+    margin: 0 0 2rem 0;
+}
+.about {
+    padding: 2rem $padding-right 2rem $padding-left;
+    color: $color-nuetral-0;
+    height: 106px;
+    background-color: rgb(69, 57, 81);
+}
+
+.section-container {
+    padding: $padding-top $padding-right $padding-bottom $padding-left;
+}
+.section-description {
+    font-size: 18px;
+    color: $color-gray-5;
+}
+
+.section-hint {
+    text-transform: uppercase;
+    color: $color-gray-3;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.card-header {
+    background-color: $color-nuetral-0;
+}
+.card {
+    border: none;
+}
+
+.social {
+    line-height: 2rem;
+}
+.customers {
+    background-color: $color-gray-1;
+}
+.section-label {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+.description {
+    margin-top: 1rem;
+}
+
+.summary-row {
+    margin: 0 0 1rem 0;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.donate {
+    border: 2px solid $color-gray-3;
+    background-color: $color-nuetral-0;
+    padding: 0.5rem;
+    border-radius: 2px;
+    cursor: pointer;
+}

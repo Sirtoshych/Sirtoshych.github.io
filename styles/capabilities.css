@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.progress-item {
+  margin-bottom: 2rem; }
+
+.progress-header {
+  margin-bottom: 0.5rem;
+  font-size: 14px; }
+
+.progress-label {
+  letter-spacing: 0.05rem;
+  text-transform: uppercase; }
+
+.progress-level {
+  color: #776e7f;
+  text-transform: capitalize; }

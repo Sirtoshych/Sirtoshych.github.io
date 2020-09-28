@@ -4592,6 +4592,10 @@ a {
     text-decoration: none;
     color: black; }
 
+h5 {
+  color: black;
+  font-weight: bold; }
+
 body {
   font-size: 1rem;
   font-family: 'Open Sans'; }
@@ -4611,19 +4615,6 @@ body {
 .upper {
   text-transform: uppercase; }
 
-.menu-item {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  text-transform: uppercase;
-  font-size: 0.75rem;
-  margin-right: 1rem; }
-  .menu-item:hover {
-    border-bottom: 2px solid #ea623d;
-    cursor: pointer; }
-  .menu-item i {
-    margin-left: 0.25rem; }
-
 .image {
   background-color: gray;
   border: 1px solid gray;
@@ -4642,9 +4633,6 @@ body {
   height: 106px;
   background-color: #453951; }
 
-.services {
-  background-color: whitesmoke; }
-
 .section-container {
   padding: 3rem 7vw 3rem 7vw; }
 
@@ -4652,70 +4640,17 @@ body {
   font-size: 18px;
   color: #666666; }
 
-.header {
-  padding: 2rem 7vw 2rem 7vw;
-  margin: 0; }
-
 .section-hint {
   text-transform: uppercase;
   color: #776e7f;
   font-weight: bold;
   font-size: 14px; }
 
-.progress-item {
-  margin-bottom: 2rem; }
-
-.progress-header {
-  margin-bottom: 0.5rem;
-  font-size: 14px; }
-
-.progress-label {
-  letter-spacing: 0.05rem;
-  text-transform: uppercase; }
-
-.progress-level {
-  color: #776e7f;
-  text-transform: capitalize; }
-
-.carousel-item {
-  padding: 3rem 7vw 3rem 7vw;
-  background-color: #453951;
-  height: 20rem; }
-
-.slide {
-  flex: 1; }
-
-.name {
-  line-height: 2rem; }
-
-.position {
-  line-height: 2rem;
-  border-bottom: 1px solid whitesmoke;
-  text-transform: uppercase; }
-
-.service-icon-container {
-  height: 32px;
-  width: 32px;
-  flex: 1;
-  margin-top: 0.25rem;
-  background-color: #ea623d;
-  color: #fff;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
 .card-header {
   background-color: #fff; }
 
 .card {
   border: none; }
-
-.nav-item {
-  color: #ea623d; }
-  .nav-item:hover {
-    color: #fff;
-    cursor: pointer; }
 
 .social {
   line-height: 2rem; }
@@ -4730,106 +4665,11 @@ body {
 .description {
   margin-top: 1rem; }
 
-.contacts {
-  padding: 2rem 7vw 2rem 7vw;
-  background-color: #453951;
-  color: #776e7f;
-  font-size: 0.75rem; }
-
-.social-circle {
-  width: 3rem;
-  height: 3rem;
-  background-color: #776e7f;
-  border-radius: 50%;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff; }
-
-.btn {
-  font-size: 0.75rem; }
-
-.email-input {
-  height: 2rem;
-  background-color: #776e7f;
-  border: none;
-  font-size: 0.75rem; }
-  .email-input::placeholder {
-    color: whitesmoke;
-    opacity: 1; }
-  .email-input:focus, .email-input:active {
-    border: none;
-    background-color: #776e7f;
-    box-shadow: none; }
-
-.footer {
-  margin: 0;
-  background-color: #2a272e;
-  color: #776e7f; }
-
-.footer-label {
-  margin-bottom: 1rem;
-  font-size: 14px;
-  letter-spacing: 0.05rem; }
-
-.footer-address {
-  color: whitesmoke; }
-
-.footer-addres-phone {
-  margin-top: 1rem;
-  color: #fff; }
-
-.footer-tweet-date {
-  color: #453951;
-  font-size: 0.75rem;
-  text-transform: uppercase; }
-
-.footer-tweet {
-  color: whitesmoke; }
-  .footer-tweet a {
-    color: #ea623d; }
-
 .summary-row {
   margin: 0 0 1rem 0; }
 
-h5 {
-  color: black;
-  font-weight: bold; }
-
 .button {
   cursor: pointer; }
-
-.collapse-header .fa-minus {
-  color: #ea623d;
-  margin-right: 0.5rem; }
-
-.collapse-header .fa-plus {
-  color: #ea623d;
-  margin-right: 0.5rem; }
-
-.bg-skill {
-  background-color: black; }
-
-.collapse-header[aria-expanded='true'] .fa-plus {
-  display: none; }
-
-.collapse-header[aria-expanded='false'] .fa-minus {
-  display: none; }
-
-.carousel-indicators .active {
-  background-color: #fff; }
-
-.carousel-indicators li {
-  width: 10px;
-  height: 10px;
-  background-color: transparent;
-  border: 1px solid #fff;
-  border-radius: 100%; }
-
-.card-title {
-  color: #fff !important; }
 
 .donate {
   border: 2px solid #776e7f;
@@ -4837,14 +4677,3 @@ h5 {
   padding: 0.5rem;
   border-radius: 2px;
   cursor: pointer; }
-
-.nav {
-  margin-right: 0.5rem; }
-
-.menu-logo {
-  text-transform: uppercase;
-  letter-spacing: 0.3rem;
-  font-weight: 600;
-  color: #776e7f; }
-  .menu-logo img {
-    margin-right: 0.5rem; }

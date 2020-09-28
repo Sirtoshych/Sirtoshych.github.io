@@ -1,0 +1,47 @@
+@import './common';
+
+.collapse-header {
+    .fa-minus {
+        color: $color-red-1;
+        margin-right: 0.5rem;
+    }
+    .fa-plus {
+        color: $color-red-1;
+        margin-right: 0.5rem;
+    }
+}
+.carousel-item {
+    padding: $padding-top $padding-right $padding-bottom $padding-left;
+    background-color: $color-gray-2;
+    height: 20rem;
+}
+.slide {
+    flex: 1;
+}
+.bg-skill {
+    background-color: $color-nuetral-9;
+}
+.collapse-header[aria-expanded='true'] {
+    .fa-plus {
+        display: none;
+    }
+}
+.collapse-header[aria-expanded='false'] {
+    .fa-minus {
+        display: none;
+    }
+}
+.carousel-indicators .active {
+    background-color: $color-nuetral-0;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: 1px solid $color-nuetral-0;
+    border-radius: 100%;
+}
+.card-title {
+    color: $color-nuetral-0 !important;
+}

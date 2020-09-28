@@ -1,0 +1,30 @@
+@import './common';
+.footer {
+    margin: 0;
+    background-color: $color-gray-4;
+    color: $color-gray-3;
+}
+.footer-label {
+    margin-bottom: 1rem;
+    font-size: 14px;
+    letter-spacing: 0.05rem;
+}
+
+.footer-address {
+    color: $color-gray-1;
+}
+.footer-addres-phone {
+    margin-top: 1rem;
+    color: $color-nuetral-0;
+}
+.footer-tweet-date {
+    color: $color-gray-2;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+.footer-tweet {
+    color: $color-gray-1;
+    a {
+        color: $color-red-1;
+    }
+}

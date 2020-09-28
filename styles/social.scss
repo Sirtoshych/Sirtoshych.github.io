@@ -1,0 +1,39 @@
+@import './common';
+
+.contacts {
+    padding: 2rem $padding-right 2rem $padding-left;
+    background-color: $color-gray-2;
+    color: $color-gray-3;
+    font-size: 0.75rem;
+}
+.social-circle {
+    width: 3rem;
+    height: 3rem;
+    background-color: $color-gray-3;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-nuetral-0;
+}
+.btn {
+    font-size: 0.75rem;
+}
+.email-input {
+    height: 2rem;
+    background-color: $color-gray-3;
+    border: none;
+    font-size: 0.75rem;
+    &::placeholder {
+        color: $color-gray-1;
+        opacity: 1;
+    }
+    &:focus,
+    &:active {
+        border: none;
+        background-color: $color-gray-3;
+        box-shadow: none;
+    }
+}
